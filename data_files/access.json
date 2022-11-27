@@ -1,0 +1,9 @@
+{
+  "analytic": [
+    "bp_report",
+    "bp_query"
+  ],
+  "director": [
+    "bp_report"
+  ]
+}

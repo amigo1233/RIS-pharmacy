@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/auth/sql/external_user.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/auth/sql/internal_user.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/basket/sql/all_items.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/basket/sql/insert_order.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/basket/sql/insert_order_list.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/basket/sql/select_order_id.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/blueprint_report/sql/order_report.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/blueprint_report/sql/sale_report.sql" dialect="GenericSQL" />
+  </component>
+</project>

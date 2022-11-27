@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block external_user %}
+<p align="center">
+    <a href="{{ url_for('bp_order.order_index') }}">В каталог</a>
+    <br>
+    <a href="{{ url_for('blueprint_auth.start_auth') }}">Нажмите для выхода из акаунта</a>
+</p>
+{% endblock %}

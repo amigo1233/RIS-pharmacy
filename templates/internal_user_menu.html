@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block internal_user %}
+<p align="center">
+    <a href="{{ url_for('bp_query.start_query') }}">Меню запросов</a>
+    <br><br>
+    <a href="{{ url_for('bp_report.start_report') }}">Меню отчётов</a>
+    <br><br>
+    <a href="{{ url_for('blueprint_auth.start_auth') }}">Нажмите для выхода из акаунта</a>
+</p>
+{% endblock %}
