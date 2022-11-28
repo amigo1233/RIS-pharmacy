@@ -1,12 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Access required</title>
+   <meta charset="UTF-8">
+   <title>Access required</title>
+   <link rel="stylesheet" href="css/access_refused.css">
 </head>
+
 <body>
-    <h2>Вам необходимо авторизоваться</h2>
-    <br>
-    <a href="{{url_for('main_menu')}}">Нажмите для возврата в гл меню</a>
+   <div class="content">
+      <h2 class="h2">Вам необходимо войти в акаунт</h2>
+      <a class="button" href="{{url_for('main_menu')}}"><span> Нажмите для авторизации</span></a>
+
+   </div>
 </body>
+
 </html>
