@@ -4,14 +4,16 @@
 <head>
    <meta charset="UTF-8">
    <title>Base menu</title>
-   <link rel="stylesheet" href="static/main.css" type="text/css">
+   <link rel="stylesheet" href="css/base.css">
 </head>
 
 <body>
-   <div>
-      <h1 align="center">Вам доступны следующие действия1</h1>
+   <div class="content">
+   <div class="main-content">
+      <h1 class="h1">Вам доступны следующие действия</h1>
       {% block internal_user %}{% endblock %}
       {% block external_user %}{% endblock %}
+   </div>
    </div>
 </body>
 

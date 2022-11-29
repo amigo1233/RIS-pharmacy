@@ -1,9 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>User menu</title>
+   <link rel="stylesheet" href="css/external_user_menu.css">
+</head>
 {% extends 'base.html' %}
 
 {% block external_user %}
-<p align="center">
-    <a href="{{ url_for('bp_order.order_index') }}">В каталог</a>
-    <br>
-    <a href="{{ url_for('blueprint_auth.start_auth') }}">Нажмите для выхода из акаунта</a>
-</p>
+
+<body>
+   <div class="main-content">
+      <div class="buttons">
+         <div>
+            <a class="first-button" href="{{ url_for('bp_order.order_index') }}"><span>В каталог</span></a>
+         </div>
+         <div>
+            <a class="second-button" href="{{ url_for('blueprint_auth.start_auth') }}"><span>Нажмите для выхода из акаунта</span></a>
+         </div>
+      </div>
+   </div>
+</body>
+
+</html>
 {% endblock %}
