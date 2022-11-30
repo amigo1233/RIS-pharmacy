@@ -1,21 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Auth</title>
-</head>
-<style>
 
-</style>
+<head>
+   <meta charset="UTF-8">
+   <title>Auth</title>
+   <link rel="stylesheet" href="css/input_login.css">
+</head>
+
 <body class="wrapper">
-    <div class="container">
-        <h1 class="main_title">Страница авторизации</h1>
-        <form class="auth_wrapper" method="post">
-            <input type="text" class="auth_login" placeholder="Логин" name="login">
-            <input type="password" class="auth_password" placeholder="Пароль" name="password">
-            <input type="submit" class="auth_submit">
-        </form>
-        <p class="auth_message">{{ message }}</p>
-    </div>
+   <div class="container">
+      <h1 class="main-title">Войдите в акаунт</h1>
+      <form class="auth-wrapper" method="post">
+         <div>
+            <input type="text" class="auth-login" placeholder="Логин" name="login">
+         </div>
+         <div>
+            <input type="password" class="auth-password" placeholder="Пароль" name="password">
+         </div>
+         <div>
+            <input type="submit" value="Войти" class="auth-submit">
+         </div>
+      </form>
+         <div>
+            <p class="auth-message">{{ message }}</p>
+         </div>
+   </div>
 </body>
+
 </html>

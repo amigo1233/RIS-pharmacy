@@ -1,0 +1,167 @@
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+
+*,
+*::before,
+*::after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+:focus,
+:active {
+   outline: none;
+}
+
+a:focus,
+a:active {
+   outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+
+html,
+body {
+   height: 100;
+   width: 100;
+   font-size: 100;
+   line-height: 1;
+   font-size: 14;
+   -ms-text-size-adjust: 100;
+   -moz-text-size-adjust: 100;
+   -webkit-text-size-adjust: 100;
+}
+
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+
+input::-ms-clear {
+   display: none;
+}
+
+button {
+   cursor: pointer;
+}
+
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+
+a,
+a:visited {
+   text-decoration: none;
+}
+
+a,
+:hover {
+   text-decoration: none;
+}
+
+ul li {
+   list-style: none;
+}
+
+img {
+   vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+
+body {
+   font-family: Arial;
+   margin: 110px 0 0 500px;
+   background: #e8e8e8 url('../css/img/bg.png') 35% -40px no-repeat;
+}
+
+.wrapper {}
+
+.container {
+   text-align: center;
+   border: solid #fff;
+   border-radius: 90px;
+   width: 500px;
+   height: 550px;
+   box-shadow: 0px 6px 40px 0px rgba(98, 167, 162, 0.54);
+   background-color: #fff;
+}
+
+.main-title {
+   margin: 80px 0 110px 0;
+   color: rgba(98, 167, 162, 0.54);
+   font-size: 25px;
+   font-weight: 500;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+   background-color: #fff;
+}
+
+.auth-wrapper {}
+
+
+
+.auth-login {
+   width: 220px;
+   padding: 10px;
+   outline: none;
+   border: none;
+   color: rgba(98, 167, 162, 0.54);
+   font-size: 1em;
+   background: transparent;
+   border-left: 2px solid rgba(98, 167, 162, 0.54);
+   border-bottom: 2px solid rgba(98, 167, 162, 0.54);
+   transition: 0.1s;
+   
+}
+
+
+.auth-password {
+   width: 220px;
+   padding: 10px;
+   outline: none;
+   border: none;
+   color: rgba(98, 167, 162, 0.54);
+   font-size: 1em;
+   background: transparent;
+   border-left: 2px solid rgba(98, 167, 162, 0.54);
+   border-bottom: 2px solid rgba(98, 167, 162, 0.54);
+   transition: 0.1s;
+   margin: 30px 0 0 0;
+   
+}
+
+.auth-submit {
+   height: 45px;
+   width: 100px;
+   border-radius: 5px;
+   border: 2px solid rgba(98, 167, 162, 0.54);
+   cursor: pointer;
+   background-color: transparent;
+   transition: 0.5s;
+   text-transform: uppercase;
+   font-size: 10px;
+   letter-spacing: 2px;
+   margin: 30px 0 0 0 ;
+}
+
+.auth-message {
+   margin: 60px;
+
+}
