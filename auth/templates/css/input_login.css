@@ -87,7 +87,7 @@ h6,
 
 body {
    font-family: Arial;
-   margin: 110px 0 0 500px;
+   margin: 110px 0 0 550px;
    background: #e8e8e8 url('../css/img/bg.png') 35% -40px no-repeat;
 }
 
@@ -122,7 +122,7 @@ body {
    padding: 10px;
    outline: none;
    border: none;
-   color: rgba(98, 167, 162, 0.54);
+   color: rgba(62, 136, 131, 0.54);
    font-size: 1em;
    background: transparent;
    border-left: 2px solid rgba(98, 167, 162, 0.54);
@@ -137,7 +137,7 @@ body {
    padding: 10px;
    outline: none;
    border: none;
-   color: rgba(98, 167, 162, 0.54);
+   color: rgba(62, 136, 131, 0.54);
    font-size: 1em;
    background: transparent;
    border-left: 2px solid rgba(98, 167, 162, 0.54);
